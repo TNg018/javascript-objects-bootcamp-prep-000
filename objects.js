@@ -3,7 +3,7 @@ var playlist = {
 }
 
 function updatePlaylist(playlist, artistName, songTitle) {
- return Object.assign({}, playlist, { [artistName]: songTitle})
+ returnlearn tes Object.assign({}, playlist, { [artistName]: songTitle})
 }
 
 function removeFromPlaylist(playlist, artistName) {
